@@ -1,13 +1,15 @@
-import nltk
-from nltk.stem.lancaster import LancasterStemmer
-st = LancasterStemmer()
+####################################------------- importation of library ----------------##############################
 import numpy as np
+import nltk
 import tflearn
 import tensorflow as tf
 import json
 import random
 import pickle
+from nltk.stem.lancaster import LancasterStemmer
+st = LancasterStemmer()
 
+#################################----------------- prepartion of data --------------------###############################
 with open("intents.json") as file:
     data = json.load(file)
 

@@ -4,7 +4,7 @@
          "responses": ["Hello!", "Good to see you", "Hi there, how can I help?","I pleased to meet you"]
         },
         {"tag": "goodbye",
-         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "patterns": ["Thank you", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
          "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"]
         },
         {"tag": "age",

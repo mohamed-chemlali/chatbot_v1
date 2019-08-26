@@ -1,0 +1,19 @@
+.box {
+    height: auto;
+    width: 810px;
+    padding: 8px;
+    background-color: #fff;
+    border: 2px solid #dedede;
+}
+
+div.bouton {
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0;
+    margin-top: 200px;
+    background-color: #ddd;
+    padding: 10px 0 0 10px;
+    font-size: 20px;
+}
+
+
